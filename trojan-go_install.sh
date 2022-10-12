@@ -354,7 +354,7 @@ trojan_go_systemd(){
   cat >${trojan_systemd_file} << EOF
 [Unit]
 Description=trojan
-Documentation=https://github.com/p4gefau1t/trojan-go
+Documentation=https://github.com/gfw-report/trojan-go
 After=network.target
 
 [Service]
