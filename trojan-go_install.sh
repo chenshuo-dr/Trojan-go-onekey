@@ -222,7 +222,7 @@ tls_generate_script_install() {
     fi
     sucess_or_fail "安装 tls 证书生成脚本依赖"
 
-    curl https://get.acme.sh | sh
+    curl -sL https://get.acme.sh | sh -s email=chenshuo_l@protonmail.com.com
     sucess_or_fail "安装 tls 证书生成脚本"
     source ~/.bashrc
 }
